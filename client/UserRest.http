@@ -1,0 +1,13 @@
+@rota = users
+
+###
+# @name createUser
+POST {{urlBase}}/{{rota}}/
+Content-Type: application/json
+
+{
+    "name": "Bruno S Velho",
+    "username": "VBruno",
+    "password": "12345"
+}
+
