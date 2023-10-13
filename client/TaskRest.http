@@ -1,0 +1,18 @@
+@rota = tasks
+
+###
+# @name createUser
+POST {{urlBase}}/{{rota}}/
+Authorization: Basic VBruno:12345
+Content-Type: application/json
+
+{
+    "description": "Tarefa para gravar aula de Task do Curso de spring Boot",
+    "title": "Gravação de aula",
+    "priority": "ALTA",
+    "startAt": "2023-10-10T10:10:10",
+    "endAt": "2023-10-10T10:10:10",
+    "idUser": "6c10318b-e123-403a-a5e2-3bbad8796711"
+}
+
+### 
